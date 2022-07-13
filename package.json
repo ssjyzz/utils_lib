@@ -1,0 +1,38 @@
+{
+  "name": "utils_lib_yk",
+  "version": "1.0.1",
+  "description": "js通用方法库",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build:types": "tsc",
+    "build": "npm run build:types && rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssjyzz/utils_lib.git"
+  },
+  "keywords": [
+    "toolkit",
+    "rollup",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssjyzz/utils_lib/issues"
+  },
+  "homepage": "https://github.com/ssjyzz/utils_lib#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
